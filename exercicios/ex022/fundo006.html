@@ -11,8 +11,15 @@
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
+            background-attachment: fixed;
             height: 100vh;
+
+            /* shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
         }
         main{
             background-color: white;
@@ -20,13 +27,17 @@
             border-radius: 10px;
             border:2px solid blue;
             margin: auto;
-            width: 400px;
+            max-width: 400px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta animi cum, rerum sequi itaque nisi ut beatae laborum delectus, quos tempore inventore distinctio consequatur quisquam. A doloribus ipsa expedita.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptates earum officiis molestiae veniam praesentium nesciunt alias impedit dolorem autem, ipsam harum. Harum earum perspiciatis quia! Nam necessitatibus rem cum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta animi cum, rerum sequi itaque nisi ut beatae laborum delectus, quos tempore inventore distinctio consequatur quisquam. A doloribus ipsa expedita.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptates earum officiis molestiae veniam praesentium nesciunt alias impedit dolorem autem, ipsam harum. Harum earum perspiciatis quia! Nam necessitatibus rem cum?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dicta animi cum, rerum sequi itaque nisi ut beatae laborum delectus, quos tempore inventore distinctio consequatur quisquam. A doloribus ipsa expedita.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptates earum officiis molestiae veniam praesentium nesciunt alias impedit dolorem autem, ipsam harum. Harum earum perspiciatis quia! Nam necessitatibus rem cum?</p>
     </main>
