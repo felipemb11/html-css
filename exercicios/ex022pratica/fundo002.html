@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo</title>
+    <style>
+        #container {
+            height: 400px;
+            width: 92%;
+            border: solid 1px black;
+
+            background-image: url(imagens/pattern001.png);
+            background-repeat: repeat;
+        }
+
+        #horizontal {
+            height: 400px;
+            width: 92%;
+            border: solid 1px black;
+
+            background-image: url(imagens/pattern002.png);
+            background-repeat: repeat-x;
+            background-color: lightgrey;
+        }
+        #vertical {
+            height: 400px;
+            width: 92%;
+            border: solid 1px black;
+
+            background-image: url(imagens/pattern003.png);
+            background-repeat: repeat-y;
+            background-color: lightgrey;
+
+        }
+
+        #norepeat {
+            height: 400px;
+            width: 92%;
+            border: solid 1px black;
+
+            background-image: url(imagens/pattern004.png);
+            background-repeat: no-repeat;
+            background-color: lightgrey;
+
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1>Repetições em background-image</h1>
+    <h2>background-repeat: repeat;</h2>
+    <p>Repete a imagem tanto no sentido vertical, quanto na horizontal (padrão).</p>
+    <div id="container">
+
+    </div>
+    <h2> bvackground-repeat: repeat-x</h2>
+    <p>Repete apenas no eixo horizontal.</p>
+    <div id="horizontal">
+
+    </div>
+    <h2>background-repeat: repeat-y;</h2>
+    <p>Repete apenas no eixo vertical</p>
+    <div id="vertical">
+
+    </div>
+    <h2>background-repeat: no-repeat;</h2>
+    <p>Não repete em nenhum eixo. A imagem só é carregada uma única vez.</p>
+    <div id="norepeat">
+
+    </div>
+
+</body>
+</html>
