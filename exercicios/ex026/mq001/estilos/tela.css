@@ -10,3 +10,21 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+header {
+    background-color: lightgrey;
+}
+
+header > h1 {
+    text-align: center;
+}
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(73, 71, 71);
+}
